@@ -1,5 +1,5 @@
 {
-  "name": "mendicm/css-regression",
+  "name": "svenlie/css-regression",
   "description": "CSS Regression Module for Codeception",
   "type": "library",
   "license": "GPL-2.0+",
@@ -11,6 +11,10 @@
     {
       "name": "Carlos Mendieta",
       "email": "mendicm@gmail.com"
+    },
+    {
+      "name": "Sven Liebert",
+      "email": "mail@sven-liebert.de"
     }
   ],
   "require": {
@@ -20,7 +24,7 @@
   },
   "autoload": {
     "psr-4": {
-      "mendicm\\CodeceptionCssRegression\\": "src"
+      "svenlie\\CodeceptionCssRegression\\": "src"
     }
   }
 }
