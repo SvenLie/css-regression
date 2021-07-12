@@ -1,13 +1,13 @@
 <?php
-namespace mendicm\CodeceptionCssRegression\Extension;
+namespace svenlie\CodeceptionCssRegression\Extension;
 
 use Codeception\Event\PrintResultEvent;
 use Codeception\Event\StepEvent;
 use Codeception\Event\SuiteEvent;
 use Codeception\Events;
 use Codeception\Module\WebDriver;
-use mendicm\CodeceptionCssRegression\Module\CssRegression;
-use mendicm\CodeceptionCssRegression\Util\FileSystem;
+use Codeception\Module\CssRegression;
+use svenlie\CodeceptionCssRegression\Util\FileSystem;
 
 /**
  * Generates an html file with all failed tests that contains the reference image, failed image and diff image.

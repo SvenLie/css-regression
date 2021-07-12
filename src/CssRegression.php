@@ -1,5 +1,5 @@
 <?php
-namespace mendicm\CodeceptionCssRegression\Module;
+namespace Codeception\Module;
 
 use Codeception\Exception\ElementNotFound;
 use Codeception\Exception\ModuleException;
@@ -9,7 +9,7 @@ use Codeception\Step;
 use Codeception\TestCase;
 use Codeception\Util\FileSystem;
 use Facebook\WebDriver\Remote\RemoteWebElement;
-use mendicm\CodeceptionCssRegression\Util\FileSystem as RegressionFileSystem;
+use svenlie\CodeceptionCssRegression\Util\FileSystem as RegressionFileSystem;
 
 /**
  * Compares a screenshot of an element against a reference image

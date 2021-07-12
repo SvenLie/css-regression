@@ -1,8 +1,7 @@
 <?php
-namespace mendicm\CodeceptionCssRegression\Util;
+namespace svenlie\CodeceptionCssRegression\Util;
 
-use Codeception\Module;
-use mendicm\CodeceptionCssRegression\Module\CssRegression;
+use Codeception\Module\CssRegression;
 
 /**
  * Provide some methods for filesystem related actions
