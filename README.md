@@ -15,7 +15,7 @@ modules:
     enabled:
         - WebDriver:
             ...
-        - \mendicm\CodeceptionCssRegression\Module\CssRegression:
+        - \svenlie\CodeceptionCssRegression\Module\CssRegression:
             referenceImageDirectory: 'referenceImages'
             failImageDirectory: 'failImages'
             maxDifference: 0.1
